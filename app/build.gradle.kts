@@ -45,5 +45,10 @@ android {
 }
 
 dependencies {
-    implementation("com.android.support:support-compat:28.0.0")
+    implementation(
+        group = "com.genesys.gms.android",
+        name = "sdk",
+        version = "8.5.201.00.rev.65d2ee0"
+//        version = "8.5.201.00.rev.8453f22"
+    )
 }
